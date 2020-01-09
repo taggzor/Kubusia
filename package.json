@@ -1,23 +1,32 @@
 {
-    "name": "KBMK-bot",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "@types/node": "^12.7.3",
-      "discord.js": "^11.5.1",
-      "node-gyp": "^5.0.3",
-      "opusscript": "0.0.7",
-      "rebuild": "^0.1.2",
-      "simple-youtube-api": "^5.2.1",
-      "youtube-search": "^1.1.4",
-      "yt-player": "^3.3.0",
-      "yt-search": "^0.4.1",
-      "ytdl-core": "^0.29.5"
-    }
-  }
+  "name": "kbmk-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.7.3",
+    "discord.js": "^11.5.1",
+    "node-gyp": "^5.0.3",
+    "opusscript": "0.0.7",
+    "rebuild": "^0.1.2",
+    "simple-youtube-api": "^5.2.1",
+    "youtube-search": "^1.1.4",
+    "yt-player": "^3.3.0",
+    "yt-search": "^0.4.1",
+    "ytdl-core": "^0.29.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taggzor/Kubusia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/taggzor/Kubusia/issues"
+  },
+  "homepage": "https://github.com/taggzor/Kubusia#readme",
+  "description": ""
+}
