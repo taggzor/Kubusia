@@ -52,7 +52,11 @@ client.on("message", function(msg){
             };
         }
         var server = servers[parseInt(msg.guild.id)];
-        if(!server.queue[0])server.queue.push("https://www.youtube.com/watch?v=Vbks4abvLEw");
+        if(!server.queue[0]){server.queue.push("https://www.youtube.com/watch?v=Vbks4abvLEw");
+        server.queue.push("https://www.youtube.com/watch?v=Vbks4abvLEw");
+        server.queue.push("https://www.youtube.com/watch?v=Vbks4abvLEw");
+        server.queue.push("https://www.youtube.com/watch?v=Vbks4abvLEw");
+        server.queue.push("https://www.youtube.com/watch?v=Vbks4abvLEw");}
         if(!args[0].startsWith("https://www.y")){
             
             yts(args.join(" "),function(err,r){
