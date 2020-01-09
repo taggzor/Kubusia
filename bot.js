@@ -86,4 +86,4 @@ client.on("message", function(msg){
 
 
 
-client.login("NjY0ODQzMjM0NjM5MzQ3NzM0.Xhc9lg.2JSdQolBso9ysyUZpaQo8uTz_B0");
+client.login(process.env.TOKEN);
