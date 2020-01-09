@@ -77,6 +77,7 @@ client.on("message", function(msg){
     if(command=="skip"){
         var server = servers[parseInt(msg.guild.id)];
         if(server.dispatcher) server.dispatcher.end();
+        if(!server.queue[0])msg.guild.voiceConnection.disconnect();
     }
     if(command=="stop"){
         var server = servers[parseInt(msg.guild.id)];
