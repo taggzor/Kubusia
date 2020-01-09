@@ -48,7 +48,8 @@ client.on("message", function(msg){
         var gildia=parseInt(msg.guild.id);
         if(!servers[gildia]){
             servers[gildia] = {
-                queue: []
+                queue: [],
+                loop: Boolean
             };
         }
         var server = servers[parseInt(msg.guild.id)];
