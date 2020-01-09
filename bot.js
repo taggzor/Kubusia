@@ -21,7 +21,9 @@ function play(conn,msg){
     })
 }
 
-
+client.on("ready", function(){
+    console.log("Dziala na ".client.guild.size);
+})
 
 //const player = new ytplayer(yttoken);
 client.on("message", function(msg){
