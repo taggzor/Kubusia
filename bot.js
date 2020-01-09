@@ -22,7 +22,7 @@ function play(conn,msg){
 }
 
 client.on("ready", function(){
-    console.log("Dziala na ".client.guild.size);
+    console.log(`Dziala na ${client.guilds.size} serwerach`);
 })
 
 //const player = new ytplayer(yttoken);
